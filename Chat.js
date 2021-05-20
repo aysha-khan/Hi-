@@ -1,0 +1,8 @@
+function adduser()
+{
+    user_name=document.getElementById("username").value;
+
+    localStorage.setItem("user name",user_name);
+
+window.location="room.html";
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The rooms</title>
+	<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="Joke.css">
+	<script src="room.js"></script>
+</head>
+<body>
+	<div id="room">
+<div id="logout-div">
+	
+	<button id="logout" onclick="logout()" class="glyphicon glyphicon-log-out btn btn-danger">Logout</button>
+</div>
+<center>
+	<h1>	
+		<sub id="bigguy">Let's chat	</sub>	
+		<sup id="smallguy">Web app</sup>
+	
+		
+	
+	</h1>
+
+<div id="Userwelcomne"></div>
+<br>	
+
+
+<h4>Create a new room so people can talk to you </h4>
+<br>
+<h4>Enter your room name</h4>
+	<input id="Rommame"class="form-control" placeholder="My room name is">
+<br>
+<center><button onclick="addromm()" class="btn btn-danger">Add room name</button></center>
+
+<h2>Some rooms</h2>
+<div id="roomnames"></div>
+</center>
+</div>
+</body></html>

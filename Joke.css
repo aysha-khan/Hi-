@@ -1,0 +1,21 @@
+body
+{
+    background-color: rebeccapurple;
+}
+#smallguy
+{
+	font-size: small;
+	
+}
+
+#logout-div
+{
+    float: right;
+}
+
+#Rommame
+{
+    width: 50%;
+    background-color:orange;
+   
+}
