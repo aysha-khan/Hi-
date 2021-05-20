@@ -1,0 +1,13 @@
+#smallguy
+{
+	font-size: small;
+	
+}
+body{
+   background-color: coral;
+}
+
+#logout
+{
+    float: right;
+}
